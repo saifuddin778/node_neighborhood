@@ -90,6 +90,7 @@ class nodes_neighbors(object):
 
     def simulate(self):
         keys = self.keys
+        #--picking a random node
         key = rn.sample(keys, 1)[0]
         
         if key == self.center_node:
